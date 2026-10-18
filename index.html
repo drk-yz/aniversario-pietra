@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1f1b3a">
+  <meta name="description" content="Um presentinho de aniversário feito por um amigo.">
+  <title>feliz aniversário ♡</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="page-decor page-decor--one" aria-hidden="true">✿</div>
+  <div class="page-decor page-decor--two" aria-hidden="true">♡</div>
+
+  <header class="hero" id="inicio">
+    <nav class="topbar" aria-label="Navegação principal">
+      <a class="brand" href="#inicio">p vc <span>♡</span></a>
+      <a class="nav-link" href="#memorias">↓</a>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow"><span class="tiny-flower">✿</span> feliz aniversário</p>
+      <h1><span class="name-placeholder">PETRAAA</span><span class="title-heart">♡</span></h1>
+      <p class="hero-copy">eu fiz isso aqui pra você. Espero que vc goste :)</p>
+      <button class="button button-primary" id="open-gift" type="button">
+        abrir ♡ <span aria-hidden="true">↗</span>
+      </button>
+      <p class="tiny-note">presente</p>
+    </div>
+
+    <img class="hero-meme hm1" src="assets/fotos/meme-gato.jpg" alt="" aria-hidden="true">
+    <img class="hero-meme hm2" src="assets/fotos/meme-cachorro.jpg" alt="" aria-hidden="true">
+    <img class="hero-meme hm3" src="assets/fotos/meme-papoi.jpg" alt="" aria-hidden="true">
+    <img class="hero-meme hm4" src="assets/fotos/meme-doguinhos.jpg" alt="" aria-hidden="true">
+    <div class="hero-sticker sticker-star" aria-hidden="true">✦</div>
+    <div class="hero-sticker sticker-flower" aria-hidden="true">✿</div>
+    <div class="hero-sticker sticker-smile" aria-hidden="true">:)</div>
+    <div class="hero-bottom" aria-hidden="true"><span></span> pode continuar, não tem vírus (eu acho  😈 😈 ) <span></span></div>
+  </header>
+
+  <main id="present-content" class="present-content" hidden>
+    <section class="intro section-wrap" aria-labelledby="intro-title">
+      <div class="section-kicker">♡</div>
+      <h2 id="intro-title">Feliz aniversário!</h2>
+      <p class="section-lead">Apesar do seu aniversário ja ter passado pq provavelmente vc ta vendo isso na segunda, eu espero q vc tenha tido um dia muito bom e que hj também seja ♡</p>
+      <div class="tiny-divider" aria-hidden="true">♡　✿　♡</div>
+    </section>
+
+    <section class="memories section-wrap" id="memorias" aria-labelledby="memories-title">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">algumas fotos nossas q tenho no celular</div>
+          <h2 id="memories-title">umas lembranças</h2>
+        </div>
+        <p class="heading-note">♡</p>
+      </div>
+
+      <div class="photo-grid">
+        <figure class="polaroid polaroid--tilt-left">
+          <button class="photo-button" type="button" data-photo="assets/fotos/foto-01.jpg" data-caption="nos ksksks" aria-label="Ampliar foto de vocês juntos">
+            <img src="assets/fotos/foto-01.jpg" alt="Foto dos dois juntos" loading="lazy">
+            <span class="photo-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>nos ksksks</figcaption>
+          <span class="tape tape-pink" aria-hidden="true"></span>
+        </figure>
+
+        <figure class="polaroid polaroid--tilt-right">
+          <button class="photo-button" type="button" data-photo="assets/fotos/foto-02.jpg" data-caption="pow, essa foto é minha favorita" aria-label="Ampliar foto">
+            <img src="assets/fotos/foto-02.jpg" alt="Foto espontânea" loading="lazy">
+            <span class="photo-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>pow, essa foto é minha favorita</figcaption>
+          <span class="tape tape-green" aria-hidden="true"></span>
+        </figure>
+
+        <figure class="polaroid polaroid--tilt-small">
+          <button class="photo-button" type="button" data-photo="assets/fotos/foto-03.jpg" data-caption="recente, tem uma q hianny tirou q minha bunda ficou em destaque, paia" aria-label="Ampliar foto">
+            <img src="assets/fotos/foto-03.jpg" alt="Foto dos dois em um momento cotidiano" loading="lazy">
+            <span class="photo-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>recente, tem uma q hianny tirou q minha bunda ficou em destaque, paia</figcaption>
+          <span class="tape tape-yellow" aria-hidden="true"></span>
+        </figure>
+
+        <figure class="polaroid polaroid--tilt-right">
+          <button class="photo-button" type="button" data-photo="assets/fotos/foto-04.jpg" data-caption="até que não ficou tão ruim kskskkksks" aria-label="Ampliar foto">
+            <img src="assets/fotos/foto-04.jpg" alt="Selfie engraçada" loading="lazy">
+            <span class="photo-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>até que não ficou tão ruim kskskkksks</figcaption>
+          <span class="tape tape-pink" aria-hidden="true"></span>
+        </figure>
+      </div>
+      <p class="photo-hint">Pra ver direito clica nas fotos</p>
+    </section>
+
+    <section class="memes section-wrap" aria-labelledby="memes-title">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">nessa parte aq xiu</div>
+          <h2 id="memes-title">perfetio</h2>
+        </div>
+        <p class="heading-note">xiu KAKSAKSAKKA</p>
+      </div>
+      <div class="meme-grid">
+        <figure class="meme-card meme-card--papoi">
+          <img src="assets/fotos/meme-papoi.jpg" alt="Minion com um coração escrito Papoi" loading="lazy">
+          <figcaption>papoi♡</figcaption>
+        </figure>
+        <figure class="meme-card">
+          <img src="assets/fotos/meme-gato.jpg" alt="Gato com expressão séria" loading="lazy">
+          <figcaption>que lindo</figcaption>
+        </figure>
+        <figure class="meme-card">
+          <img src="assets/fotos/meme-desenho.jpg" alt="Desenho de um cachorro" loading="lazy">
+          <figcaption>arte ne claro KASKAKS</figcaption>
+        </figure>
+        <figure class="meme-card">
+          <img src="assets/fotos/meme-cachorro.jpg" alt="Cachorro com pirulito e chapéu colorido" loading="lazy">
+          <figcaption>esse aqui</figcaption>
+        </figure>
+        <figure class="meme-card">
+          <img src="assets/fotos/meme-gato-pirulito.jpg" alt="gato de chapéu" loading="lazy">
+          <figcaption>eu teria um desse na vida real, é tão bonitinho aqueles videos</figcaption>
+        </figure>
+        <figure class="meme-card">
+          <img src="assets/fotos/meme-leao.jpg" alt="awiee" loading="lazy">
+          <figcaption>iauysdftsi</figcaption>
+        </figure>
+        <figure class="meme-card">
+          <img src="assets/fotos/meme-yorkshire.jpg" alt="esse olhar" loading="lazy">
+          <figcaption>gg</figcaption>
+        </figure>
+        <figure class="meme-card">
+          <img src="assets/fotos/meme-chihuahua.jpg" alt="olhinhos" loading="lazy">
+          <figcaption>cachorro</figcaption>
+        </figure>
+        <figure class="meme-card">
+          <img src="assets/fotos/meme-unicornio.jpg" alt="a gente chegando" loading="lazy">
+          <figcaption>doidera</figcaption>
+        </figure>
+        <figure class="meme-card">
+          <img src="assets/fotos/meme-bebe.jpg" alt="pensativo" loading="lazy">
+          <figcaption>isso é vc, não tem jeito</figcaption>
+        </figure>
+        <figure class="meme-card">
+          <img src="assets/fotos/meme-meowl.jpg" alt="meowl" loading="lazy">
+          <figcaption>que bonito dnv, eu teria um desse sim slk</figcaption>
+        </figure>
+        <figure class="meme-card">
+          <img src="assets/fotos/meme-tung.jpg" alt="tung tung tung sahur" loading="lazy">
+          <figcaption>Tung Tung Sahur.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="little-note section-wrap" aria-labelledby="note-title">
+      <div class="note-paper">
+        <p class="section-kicker">♡</p>
+        <h2 id="note-title">Gostei muito de ter te conhecido</h2>
+        <p>Fico muito feliz de ter te conhecido e de poder compartilhar momentos com você. Obrigado por ser tão legal comigo e ser quem você é. Apesar de tudo, espero que a gente continue tendo bastante lembranças boas. Feliz aniversário! ♡</p>
+        <div class="popout-dogs" aria-label="Três memes de cachorrinhos">
+          <img src="assets/fotos/meme-cachorro.jpg" alt="Cachorrinho de chapéu colorido" loading="lazy">
+          <img src="assets/fotos/meme-desenho.jpg" alt="Desenho de cachorrinho" loading="lazy">
+          <img src="assets/fotos/meme-doguinhos.jpg" alt="Outro cachorrinho" loading="lazy">
+        </div>
+        <button class="button button-secondary" id="surprise-button" type="button">abrir mais uma coisinha</button>
+        <p class="surprise-message" id="surprise-message" hidden>te desejo tudo de bom, de verdade mesmo. Feliz aniversário atrasado dnv Petra ♡</p>
+      </div>
+    </section>
+
+    <section class="last-note section-wrap">
+      <span class="last-note-flower" aria-hidden="true">✿</span>
+      <p>que seu novo ano seja<br><strong>cheio de coisas boas ♡</strong></p>
+      <span class="last-note-small">com carinho, de Derick pra Pietra</span>
+    </section>
+
+    <footer class="footer">
+      <a class="brand" href="#inicio">feito por mim Derick Levi Fenix da Silva <span>♡</span></a>
+      <p>feliz aniversário ♡</p>
+      <a href="#inicio" class="back-top">voltar pro começo ↑</a>
+    </footer>
+  </main>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Visualização ampliada da foto">
+    <button class="lightbox-close" id="close-lightbox" type="button" aria-label="Fechar foto">×</button>
+    <img id="lightbox-image" src="" alt="">
+    <p id="lightbox-caption"></p>
+  </dialog>
+</body>
+</html>
